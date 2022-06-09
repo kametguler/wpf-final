@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="FinalProject.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinalProject"
+             mc:Ignorable="d" 
+             d:DesignHeight="554" d:DesignWidth="950">
+    <Grid Name="child">
+        <Canvas>
+            <Label Grid.Row="0" Grid.Column="1" Canvas.Left="254" Canvas.Top="122" FontSize="22" FontFamily="Microsoft YaHei UI" HorizontalAlignment="Left" VerticalAlignment="Top">
+                Welcome To The Kamet Library Application
+            </Label>
+            <Label Grid.Row="1" Grid.Column="1" FontSize="9"  Canvas.Left="312" Canvas.Top="219" FontFamily="Microsoft YaHei" HorizontalAlignment="Left" VerticalAlignment="Top">
+                You can click on the button of the desired operation from the side menu.
+            </Label>
+        </Canvas>
+    </Grid>
+</UserControl>
